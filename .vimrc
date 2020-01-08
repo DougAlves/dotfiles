@@ -6,11 +6,13 @@
 "               \_/ |_|_| |_| |_|_|  \___|
 " add plugins
 set nocompatible
+set backspace=indent,eol,start
 call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'junegunn/goyo.vim'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'scrooloose/nerdtree'
+    Plug 'jreybert/vimagit'
 call plug#end()
 
 let mapleader=","
