@@ -13,6 +13,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'scrooloose/nerdtree'
     Plug 'jreybert/vimagit'
+    Plug 'arzg/vim-corvine'
 call plug#end()
 
 let mapleader=","

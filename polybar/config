@@ -60,8 +60,8 @@ modules-left = bspwm i3
 modules-center = mpd
 modules-right = xbacklight alsa pulseaudio memory cpu wlan eth battery temperature date powermenu
 
-tray-position = right
-tray-padding = 2
+tray-position = left
+tray-padding = 4
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
